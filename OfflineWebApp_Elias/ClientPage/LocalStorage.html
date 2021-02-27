@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../css/StyleForLocalStorage.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-3.3.1.min.js"></script>
+    <script src="../Scripts/ScriptsForLocalStorage.js"></script>
+    <style>
+        #list img {
+            max-width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo"><h1 class="animated infinite bounce heartBeat">Offline Web App</h1></div>
+        <div class="menu">
+            <a class="active" href="#">Home</a>
+            <a href="LocalStorage.html">Local Storage</a>
+            <a href="SessionStorage.html">Session Storage</a>
+            <a href="IndexedDB.html">Indexed DB</a>
+            <a href="WebSQL.html">Web SQL</a>
+        </div>
+    </nav>
+    <div id="container">
+        <header>
+            <hgroup id="headerText">
+                <h1>Employee Information</h1>
+            </hgroup>
+        </header>
+
+        <div role="main">
+
+
+            <div id="editContact">
+                <h2 id="currentAction"></h2>
+                <div>
+                    <label for="firstName">First Name : </label>
+                    <input type="text" id="firstName" name="firstName" />
+                </div>
+
+                <div>
+                    <label for="lastName">Last Name : </label>
+                    <input type="text" id="lastName" name="lastName" />
+                </div>
+
+                <div>
+                    <label for="email">Email : </label>
+                    <input type="text" id="email" name="email" />
+                </div>
+
+                <div>
+                    <label for="phoneNumber">Phone Number : </label>
+                    <input type="text" id="phoneNumber" name="phoneNumber" />
+                </div>
+                <div>
+                    <label for="joiningDate">Joining date : </label>
+                    <input type="date" id="joiningDate" name="joiningDate" />
+                </div>
+
+                <div>
+                    <label for="fileUpload">Upload File</label>
+                    <input type="file" name="fileUpload" id="fileUpload" />
+                </div>
+
+                <div>
+                    <label class="buttons"></label>
+                    <button id="btnSave" name="save">Save</button>
+                </div>
+
+            </div>
+            <table id="contacts">
+                <thead>
+                    <tr>
+                        <th>Eamil</th>
+                        <th>Name</th>
+                        <th>Phone Number</th>
+                        <th>Joining date</th>
+                        <th>Upload File</th>
+
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,151 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../Images/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 15vh;
+    background: rgba(0,0,0,0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 25%;
+    text-align: center;
+}
+
+.menu {
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+    .menu a:first-child {
+        color: #00b894;
+    }
+
+    .menu a:hover {
+        background-color: #3e8e41;
+        border-radius: inherit;
+    }
+
+nav a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#container {
+    display: grid;
+    justify-content: center;
+}
+
+#input {
+    margin: 40px;
+    background: #ccc;
+    border-radius: 20px;
+    padding: 20px 30px;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+    #input h1 {
+        text-align: center;
+        color: #555;
+    }
+
+    #input div {
+        margin: 15px;
+    }
+
+#dataArea label {
+    float: left;
+    display: block;
+    clear: both;
+    margin: 10px;
+}
+
+#dataArea input {
+    float: right;
+    margin: 10px 10px 0px 10px;
+}
+
+
+#btnArea button, input {
+    margin-top: 40px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#btnArea input {
+    background: #FFF;
+}
+
+    #btnArea input:hover {
+        background: #555;
+        color: #FFF;
+    }
+
+#btn {
+    margin-left: 90px;
+    background: #555;
+    color: #fff;
+}
+
+    #btn:hover {
+        background: white;
+        color: #333;
+    }
+
+#fileArea {
+    padding-left: 5px;
+}
+
+#output h1 {
+    text-align: center;
+}
+
+#contacts tr, th, td {
+    text-align: center;
+    padding: 2px;
+}
+
+#list img {
+    max-width: 200px;
+}
+
+
+
+#contacts {
+    color: white;
+
+
+}
+
+

@@ -1,0 +1,232 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+aside, footer, header, hgroup, nav {
+    display: block;
+}
+
+body {
+    color: #776E65;
+    padding: 10px;
+}
+
+header {
+    height: 20px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+#headerText {
+    position: center;
+    top: 0px;
+    width: 100%;
+    color:white;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+div[role="main"] {
+    float: left;
+    width: 60%;
+    padding-left: 400px;
+}
+
+#editContact {
+    background: none repeat scroll 0 0 #808B96;
+    color: white;
+    border: 1px solid #E1E1E1;
+    width: 600px;
+    margin-top: 50px;
+    padding-left: 80px;
+    padding-top: 20px;
+    border-radius: 50px;
+}
+
+    #editContact h2 {
+        padding-left: 10px;
+        margin-top: 10px;
+        font-size: 18px;
+        width: 200px;
+    }
+
+    #editContact div {
+        width: 350px;
+        padding: 10px;
+    }
+
+        #editContact div.buttons {
+            text-align: center;
+        }
+
+    #editContact label {
+        width: 150px;
+        height: 12px;
+        vertical-align: bottom;
+        clear: left;
+        display: block;
+        float: left;
+    }
+
+    #editContact input {
+        width: 150px;
+        padding: 2px;
+        color:white;
+    }
+
+button {
+    width: 200px;
+    margin-top: 10px;
+}
+
+#contacts {
+    width: 600px;
+    border: 2px solid #E1E1E1;
+    border-radius:20px;
+    margin-top:20px;
+    padding: 10px;
+    padding-top:30px;
+    color:white;
+}
+
+    #contacts thead {
+        background-color: #e1e1e1;
+        color: #7C756D;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    #contacts tbody tr:nth-child(even) {
+        color: black;
+        background-color: #eee;
+    }
+
+    #contacts th {
+        border-color: #7C756D;
+        border-style: none none solid;
+        border-width: 0 0 1px;
+    }
+
+    #contacts th, #contacts td {
+        margin: 0px;
+        padding: 5px 10px;
+    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../Images/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 15vh;
+    background: rgba(0,0,0,0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 25%;
+    text-align: center;
+}
+
+.menu {
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+    .menu a:first-child {
+        color: #00b894;
+    }
+
+    .menu a:hover {
+        background-color: #3e8e41;
+        border-radius: inherit;
+    }
+
+nav a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+section {
+}
+
+    section h3 {
+        font-size: 35px;
+        font-weight: 200;
+        letter-spacing: 3px;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    section h2 {
+        margin: 30px 0 20px 0;
+        font-size: 55px;
+        font-weight: 500;
+        text-shadow: 2px 1px 5px black;
+        text-transform: uppercase;
+    }
+
+
+
+span:after {
+    content: '';
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+}
+
+@keyframes changetext {
+    0% {
+        content: "For Local Storage";
+    }
+
+    20% {
+        content: "For Session Storage";
+    }
+
+    35% {
+        content: "For Indexed DB";
+    }
+
+    60% {
+        content: "For Web SQL";
+    }
+
+  
+}
+
+
+
+#editContact input{
+    color:black;
+}
